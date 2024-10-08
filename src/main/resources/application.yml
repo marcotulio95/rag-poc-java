@@ -1,0 +1,10 @@
+#springapplication.name=rag-poc
+spring:
+  application:
+    name: rag-poc
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
